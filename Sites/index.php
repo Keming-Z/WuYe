@@ -6,13 +6,13 @@
 <style type="text/css">
 	
 	/* test css*/
-	.hr-menu{
+	.head-menu{
 		position: relative;
 	}
-	.hr-menu li{
-		position: relative;
-		left: 10px;
-		padding: 3px;
+	.head-menu ul{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
 	}
 	.mainpage .page-intro .title{
 		color: aqua;
