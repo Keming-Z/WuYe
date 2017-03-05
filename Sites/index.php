@@ -5,16 +5,41 @@
 <title>WuYe</title>
 <style type="text/css">
 	
+	div{
+		margin: 0px;
+		padding: 0px;
+	}
 	/* test css*/
 	.head-menu{
 		position: relative;
 	}
 	.head-menu ul{
 		list-style-type: none;
-		margin: 0px;
-		padding: 0px;
+	}
+	
+	.head-menu li{
+		display: inline;
+		float: left;
+		padding: 1px;
+	}
+	.head-menu a{
+		color: bisque;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		width: 130px;
+		padding: 5px;
+		background-color: #C8C8C8;
+		border: solid 1px;
+		border-color: grey;
+		
+		transition: background-color 0.2s;
+	}
+	.head-menu a:hover{
+		background-color: aqua;
 	}
 	.mainpage .page-intro .title{
+		display: block;
 		color: aqua;
 	}
 </style>
@@ -23,8 +48,8 @@
 
 <body>
 <div class="head-menu"><ul>
-	<li><a>HOME PAGE</a></li>
-	<li><a>ABOUT WUYE</a></li>
+	<li><a href="index.php">HOME PAGE</a></li>
+	<li><a href="index.php">ABOUT WUYE</a></li>
 	<li><a>PROCEDURES</a></li>
 	<li><a>OVERVIEW</a></li>
 	<li><a>PARTNERSHIP</a></li>
